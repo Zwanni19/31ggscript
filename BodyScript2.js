@@ -13,6 +13,9 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 } 
 
 function ehrenmannCounter(){
+  if ($("#5597336").length){
+	  $("#5597336").remove();
+  }
   var fhs = document.createElement('script');
   var fhs_id = "5597336";
 
