@@ -18,7 +18,7 @@ function ehrenmannCounter(){
   }
   var fhs = document.createElement('script');
   var fhs_id = "5597336";
-
+  fhs.id = fhs_id
   var ref = (''+document.referrer+'');
   var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
 
