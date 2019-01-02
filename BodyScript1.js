@@ -59,7 +59,7 @@ window.setInterval(ehrenmannCounter,3000);
 changeColor(true);
 document.addEventListener("DOMContentLoaded", function(event) {
     //console.log("ContentLoaded");
-    addPlayer();
+    //addPlayer();
     snowChooser();
     getArticleLink();
     var d = new Date();
