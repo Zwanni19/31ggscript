@@ -291,7 +291,10 @@ function snowChooser(){
     }else{    	
     }
   }else{
+	  mode="off"
     document.getElementById("snowChooser").style.display="none"
+	  document.getElementById("snowChooser").value = mode;
+	  
   }
   //console.log(months);
 }
